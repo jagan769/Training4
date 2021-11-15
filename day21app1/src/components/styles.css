@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+     text-align: center;
+      background-color: rgb(193, 193, 236);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration-color: darkslategrey;
+  }
+  
+  table {
+    background-color:plum;
+    width: 100%;
+    border: 1px solid black;
+  }
+  
+  th,
+  td {
+    border: 1px solid black;
+    padding: 0.5rem;
+  }
+  
+  th span {
+    margin-right: 1rem;
+  }
+  
+  input {
+    -webkit-appearance: none;
+    border: 1px solid gray;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 100%;
+    background:paleturquoise;
+  }
+  
+  .pagination {
+    margin-top: 0.25rem;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 0.5rem;
+  }
+  button{
+      color: rgb(202, 116, 45);
+      border-radius: 5px;
+  }
